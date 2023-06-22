@@ -1,0 +1,271 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+li p {
+    font-family: 'Kablammo', cursive;
+    color: white;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #475858;
+}
+
+.main-page {
+    height: 87vh;
+    background-color: #e6f3f7;
+    padding-top: 5%;
+    margin-top: 4%;
+}
+
+.mainpage-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.description {
+    width: 50%;
+    height: 87vh;
+    /* background-image: url(images/foodimage3.jpeg); */
+}
+
+.description h1 {
+    margin-top: 30vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 30px;
+    line-height: 1;
+}
+
+.description p {
+    padding: 1vh 2%;
+    width: 70%;
+    line-height: 1.5;
+}
+
+/* .description h1, .description p {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDy6Iev6xvKA_1dlKflSbto3T0LP0Biu0s3g&usqp=CAU");
+} */
+
+.button1,
+.button2 {
+    margin: 5vh 2%;
+    padding: 1% 2%;
+}
+
+.button1 {
+    /* background-color: #008CBA;  */
+    background-color: white;
+    color: black;
+    border: 1px solid #008CBA;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 1px solid #008CBA;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.button1:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.button2:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.skills {
+    width: 50%;
+    height: 87vh;
+}
+
+.skill-row {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.img-skillrow1 {
+    width: 25%;
+    float: left;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.img-skillrow2 {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+    border-radius: 50%;
+}
+
+.img-skillrow3 {
+    width: 25%;
+    float: right;
+    margin-left: 0;
+    border-radius: 50%;
+}
+
+.food-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.food-images div {
+    width: 21%;
+}
+
+figure {
+    border: 3px white solid;
+    padding: 4px;
+    margin: auto;
+
+}
+
+.food-images img {
+    width: 99%;
+    height: 250px;
+    border-radius: 1%;
+}
+
+figcaption {
+    background-color: #4CAF50;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+    width: 99%;
+    height: 20%;
+}
+
+.button3-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+.button3 {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #008CBA;
+    font-size: 25px;
+    transition-duration: 0.4s;
+    padding: 1% 2%;
+    border-radius: 4%;
+}
+
+.button3:hover {
+    background-color: #f5faf6; /* Green */
+    color: rgb(183, 239, 151);
+}
+
+.container {
+    width: 100%;
+    height: 120vh;
+    background-color: #e6f3f7;
+}
+
+.mid-container {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    background-color: #e6f3f7;
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.mid-container img {
+    width: 50%;
+    height: 50vh;
+    margin-bottom: 2%;
+    border-radius: 4%;
+}
+
+.mid-containerimg1 {
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+.mid-containerimg2 {
+    margin-left: 20%;
+    margin-right: 0;
+    /* border-radius: 50%; */
+}
+
+.mid-container button {
+    background-color: white;
+    color: black;
+    border: 1px solid #008CBA;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    margin: 5vh 2%;
+    padding: 2vh;
+}
+
+.mid-container button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer a {
+    font-weight: bolder;
+    text-decoration: none;
+    color:#98a899;
+}
+
+
+@media(max-width: 800px) {
+    .mainpage-div,
+    .food-images,
+    .mid-container {
+        flex-direction: column;
+    }
+    .description {
+        width: 100%
+    }
+
+    .skills {
+        width: 100%
+    }
+}

@@ -1,0 +1,79 @@
+body .first-view {
+    /* font-family: 'Montserrat', sans-serif; */
+    font-family: 'Kablammo', cursive;
+}
+
+.first-view-div {
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+    background-color: rgb(234, 158, 17);
+}
+.first-view img {
+    height: 100vh;
+    width: 40%;
+}
+
+/* .first-view .cart {
+    text-align: right;
+} */
+
+body {
+    /* background-color: rgb(234, 158, 17); */
+    background-color: white;
+}
+
+.sec-view {
+    height: 100vh;
+    width: 100%;
+}
+
+.secview-h1 {
+text-align: center;
+font-size: larger;
+font-family: 'Kablammo', cursive;
+}
+
+.catalogue .first-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    margin-bottom: 5%;
+
+} 
+
+.catalogue .second-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.catalogue .third-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.catalogue .fourth-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.catalogue img {
+    height: 200px;
+    width: 150px;
+}
+
+.catalogue button {
+    background-color: whitesmoke;
+    border: none;
+}
