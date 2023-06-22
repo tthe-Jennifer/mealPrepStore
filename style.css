@@ -1,9 +1,9 @@
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 1px;
     overflow: hidden;
-    background-color: #333;
+    background-color: #2b2e3c;
     position: fixed;
     top: 0;
     width: 100%;
@@ -33,7 +33,7 @@ li a:hover {
 }
 
 .active {
-    background-color: #475858;
+    background-color: #455353;
 }
 
 .main-page {
@@ -141,6 +141,7 @@ li a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin-bottom: 2%;
 }
 
 .food-images div {
@@ -251,7 +252,17 @@ figcaption {
 .footer a {
     font-weight: bolder;
     text-decoration: none;
-    color:#98a899;
+    color: #98a899;
+}
+
+.menu-intro {
+    margin: 2%;
+    padding: 2%;
+}
+
+.menu-foodimages {
+    height: 120vh;
+    width: 100%;
 }
 
 
