@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Kablammo&family=Montserrat:ital,wght@0,100;0,400;0,900;1,900&family=Open+Sans&family=Ubuntu&display=swap"
+    rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fac0b4000c.js" crossorigin="anonymous"></script> 
+    <title>Savvy | cart</title>
+</head>
+<header>
+    <ul>
+        <li>
+            <p style="margin-right: 3px;">Savvy</p>
+        </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="#meal-plans">Meal Plans</a></li>
+        <li style="float:right"><a class="active" href="cart.html" id="count">0 | <i class="fa-solid fa-cart-shopping fa-lg" style="color: #1d2020;"></i></a></li>
+    </ul>
+</header>
+<body style="height: 100vh;">
+    <div class="container" style="margin-top: 2%; padding-top: 2%;">
+        <div id="root"></div>
+        <div class="head"><h1 style="text-align: center;">Your cart is empty</h1></div>
+        <div class="foot">
+            <h3 style="text-align: right; margin-right: 2%;">Total</h3>
+            <h2 style="text-align: right; margin-right: 2%;" id="total">$ 0.00</h2>
+        </div>
+    </div>
+    <script type="module" src="app.js"></script>
+</body>
+<div class="footer">
+    <ol>
+        <a href="menu.html">Learn more - </a>
+        <a href="#about">Meet the team - </a>
+        <a href="#contact-page">Contact us</a>
+    </ol>
+</div>
+</html>

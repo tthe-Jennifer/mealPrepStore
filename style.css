@@ -144,6 +144,12 @@ li a:hover {
     margin-bottom: 2%;
 }
 
+.food-images button {
+    margin: 0 85px;
+    background-color: #e6f3f7;
+    margin-top: 2%;
+}
+
 .food-images div {
     width: 21%;
 }
@@ -261,10 +267,16 @@ figcaption {
 }
 
 .menu-foodimages {
-    height: 120vh;
+    height: 130vh;
     width: 100%;
 }
 
+#root {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
 
 @media(max-width: 800px) {
     .mainpage-div,
